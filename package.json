@@ -1,0 +1,18 @@
+{
+  "name": "bun-lucia",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "^5.7.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@lucia-auth/adapter-prisma": "^3.0.2",
+    "@prisma/client": "^5.7.1",
+    "consola": "^3.2.3",
+    "lucia": "^2.7.6"
+  }
+}
